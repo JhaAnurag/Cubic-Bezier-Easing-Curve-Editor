@@ -1,1 +1,1 @@
-# Custom-Cubic-Bezier-Easing-Curve-Editor
+# Custom-Cubic-Bézier-Easing-Curve-Editor
