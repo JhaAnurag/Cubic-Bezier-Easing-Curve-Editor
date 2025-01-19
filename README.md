@@ -1,6 +1,7 @@
-# Custom Easing Animation with Bezier Curves in Pygame
+# Custom Easing Curve Implementation with Bezier Curves in Pygame
 
 This Python script uses Pygame to visualize a custom easing animation driven by a cubic Bezier curve. You can interactively adjust the control points of the curve and see how it affects the animation of a red circle.
+This is a project I made as a way to learn how easing works within After Effects, Alight Motion, and similar tools.
 
 ## Features
 
@@ -9,7 +10,6 @@ This Python script uses Pygame to visualize a custom easing animation driven by 
 *   **Animated Circle:**  A red circle moves horizontally across the screen, and its vertical position is determined by the Bezier curve.
 *   **Tracker Rectangle:** A green rectangle follows the vertical movement of the circle, providing a visual link between the circle's position and the curve.
 *   **Real-time Adjustment:** Changes to the control points are reflected immediately in the curve and subsequent animations.
-*   **Animation Trigger:**  Press the spacebar to trigger the animation.
 
 ## How to Use
 
