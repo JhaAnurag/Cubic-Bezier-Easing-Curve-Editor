@@ -35,14 +35,6 @@ This is a project I made as a way to learn how easing works within After Effects
     *   **Start Animation:**
         *   Press the **spacebar** to start the animation. The red circle will move from left to right, and its vertical position will follow the Bezier curve.
 
-## Understanding the Code
-
-*   **Bezier Curve:** The core of the animation is the cubic Bezier curve defined by four control points (C1, V1), (C2, V2), (C3, V3), and (C4, V4). The script allows you to manipulate (C2, V2) and (C3, V3).
-*   **Easing Function:** The Bezier curve acts as an easing function, mapping the horizontal progress of the animation (0 to 1) to the vertical movement (0 to 1). This creates different acceleration and deceleration effects.
-*   **`bezier` function:** This function calculates a point on the Bezier curve for a given `t` value (ranging from 0 to 1).
-*   **`draw_bezier_curve` function:** This function draws the green Bezier curve on the screen.
-*   **`solve_t_for_x` function:** This function uses a binary search approach to find the `t` value on the Bezier curve that corresponds to a given horizontal position (`x_target`) of the circle. This is crucial for synchronizing the circle's horizontal movement with the easing defined by the curve.
-
 ## Potential Improvements
 
 *   **Graphical Interface for Control Points:** Instead of using keyboard input, allow dragging the control points directly on the screen.
