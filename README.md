@@ -43,13 +43,6 @@ This is a project I made as a way to learn how easing works within After Effects
 *   **`draw_bezier_curve` function:** This function draws the green Bezier curve on the screen.
 *   **`solve_t_for_x` function:** This function uses a binary search approach to find the `t` value on the Bezier curve that corresponds to a given horizontal position (`x_target`) of the circle. This is crucial for synchronizing the circle's horizontal movement with the easing defined by the curve.
 
-## Customization
-
-*   **Initial Control Point Values:** You can modify the initial values of `C2`, `V2`, `C3`, and `V3` in the code to start with a different Bezier curve shape.
-*   **Animation Duration:** The `TOTAL_TIME` variable controls the duration of the animation in seconds.
-*   **Frame Rate:** The `FRAME_RATE` variable determines how many times the screen is updated per second, affecting the smoothness of the animation.
-*   **Visual Appearance:** You can change the colors, sizes, and positions of the circle, tracker, and Bezier curve elements by modifying the corresponding variables.
-
 ## Potential Improvements
 
 *   **Graphical Interface for Control Points:** Instead of using keyboard input, allow dragging the control points directly on the screen.
