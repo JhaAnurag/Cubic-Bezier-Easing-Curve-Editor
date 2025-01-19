@@ -21,9 +21,9 @@ This is a project I made as a way to learn how easing works within After Effects
         ```
 
 2. **Run the script:**
-    Save the provided Python code as a `.py` file (e.g., `bezier_animation.py`) and run it from your terminal:
+    Save the provided Python code as a `.py` file (e.g., `main.py`) and run it from your terminal:
     ```bash
-    python bezier_animation.py
+    python main.py
     ```
 
 3. **Interact with the animation:**
